@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEUR YAYE SOKHNA GUEYE BILINGUAL SCHOOL</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- sponsor responsive -->
+     <link rel="preload" href="logos/sponsor1.webp" as="image" imagesrcset="logos/sponsor1.webp 1x, logos/sponsor1@2x.webp 2x">
+</head>
+<body>
+    <!-- Barre de navigation -->
+<nav class="main-nav">
+  <div class="nav-container">
+    <a href="#" class="logo">
+      <img src="logo.jpg" alt="Keur Yaye Sokhna Gueye" width="180">
+    </a>
+    
+    <div class="nav-links" id="navLinks">
+      <a href="#about">L'École</a>
+      <a href="#programme">Programme</a>
+      <a href="#conférence">Conférence</a>
+      <a href="#contact">Contact</a>
+      <div class="language-switcher">
+        <span class="active">FR</span> | <span>AR</span>
+      </div>
+    </div>
+    
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Section Hero -->
+
+
+
+
+   <header class="hero">
+    <div class="hero-image"></div>
+    <div class="hero-overlay"></div>
+    <div class="container h-100">
+       
+    </div>
+</header>
+    <!-- test -->
+       <style>
+        .hero {
+            position: relative;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 15px;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('K') no-repeat center center/cover;
+            z-index: -1;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ff9100;
+        }
+        
+        .event {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .event-time {
+            font-weight: bold;
+            color: #ff8c00;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .sponsors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header avec vidéo de fond -->
+    <header class="hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 mb-4" data-aos="fade-down">KEUR YAYE SOKHNA GUEYE BILINGUAL SCHOOL</h1>
+                    <h2 class="h3 mb-3" data-aos="fade-down">8ÈME ÉDITION</h2>
+                    <h2 class="h3 mb-4" data-aos="fade-down">conference de fin d'année</h2>
+                    <p class="lead" data-aos="fade-up" data-aos-delay="200">THEME: "Les effets religieux et éducatifs de l'adhésion au Coran"</p>
+
+                   <!-- compta rebour -->
+                    <div class="countdown-container">
+  <h4>Conférence dans :</h4>
+  <div class="countdown-grid" id="countdown">
+    <div class="countdown-item">
+      <span id="days">00</span>
+      <small>Jours</small>
+    </div>
+    <div class="countdown-item">
+      <span id="hours">00</span>
+      <small>Heures</small>
+    </div>
+    <div class="countdown-item">
+      <span id="minutes">00</span>
+      <small>Minutes</small>
+    </div>
+    <div class="countdown-item">
+      <span id="seconds">00</span>
+      <small>Secondes</small>
+    </div>
+  </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section À Propos -->
+    <section class="py-5 about" data-aos="fade-right">
+        <div class="container">
+            <h2 class="text-center mb-4">since 2005</h2>
+            <p class="text-center lead"> chaque enfant est une promesse.</p>
+        </div>
+    </section>
+
+    <!-- Programme avec timeline animée -->
+    <section class="py-5 bg-light program">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-left">CHRONOGRAMME DE LA CONFERENCE</h2>
+            
+            <div class="timeline">
+                <div class="event" data-aos="fade-up">
+                    <div class="event-time">14H à 15H :</div>
+                    <div class="event-desc"> Mise en place</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-time">15H :</div>
+                    <div class="event-desc"> Ouverture officielle (récital coranique discours mots de bienvenue français - coran - anglais)</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up">
+                    <div class="event-time">15H - 16H</div>
+                    <div class="event-desc">récital coran par groupe et individuel (Oustaz Tall)</div>
+                    <div class="event-desc">Prestation Préscolaire : Petite Section – Moyenne Section</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-time">16H45 - 17H45</div>
+                    <div class="event-desc">récital coran groupe et individuel (Oustaz Gueye)</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up">
+                    <div class="event-time">17h00</div>
+                    <div class="event-desc">pause prière</div>
+                    <div class="event-desc"> Graduation Grande Section</div>
+                    <div class="event-desc">Discours parents d'élèves + discours représentant des anciens élèves</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up">
+                    <div class="event-time">17H45 - 18H</div>
+                    <div class="event-desc">MADJ première partie + hommage</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up">
+                    <div class="event-time">18H - 19H</div>
+                    <div class="event-desc">récital coran groupe et individuel (Oustaz Diallo)</div>
+                    <div class="event-desc">Prestation anglais KABBA gui</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-time">19H - 20H</div>
+                    <div class="event-desc">récital coran groupe et individuel (Oustaz Toure)</div>
+                    <div class="event-desc">Assemblée Nationale / Discours du Directeur – discours des autorités – remise des cadeaux</div>
+                </div>
+                
+                <div class="event" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-time">20H - 20H 30</div>
+                    <div class="event-desc">Madje Dernière partie</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie dynamique -->
+    <section class="py-5 gallery">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">GALERIE</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-6" data-aos="zoom-in">
+                    <img src="modif2.png" alt="Événement 2024" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="IMG-20240718-WA0018.jpg" alt="Élèves" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="modif123.png" alt="Élèves" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="IMG-20240718-WA0027.jpg" alt="Élèves" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="IMG22.jpg" alt="Élèves" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="IMG-20240718-WA0030.jpg" alt="Élèves" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vidéos -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card h-100">
+                        <video class="card-img-top" controls>
+                            <source src="WhatsApp Vidéo 2025-06-27 à 07.41.45_19199ac7.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        <div class="card-body">
+                            <p class="card-text text-center"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <video class="card-img-top" controls>
+                            <source src="vid2.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        <div class="card-body">
+                            <p class="card-text text-center"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card h-100">
+                        <video class="card-img-top" controls>
+                            <source src="vid1.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        <div class="card-body">
+                            <p class="card-text text-center"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+  <footer class="sponsors-section">
+  <div class="container">
+    <h3 class="section-title">Nos Partenaires Officiels</h3>
+    
+    <div class="sponsors-grid">
+      <!-- Sponsor 1 -->
+      <div class="sponsor-card">
+        <img src="spon1.jpg" 
+             alt="Logo Entreprise ABC" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+      
+      <!-- Sponsor 2 -->
+      <div class="sponsor-card">
+        <img src="SPON2.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+
+       <div class="sponsor-card">
+        <img src="SPON3.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON4.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON5.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON6.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON7.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON8.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON9.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON10.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON11.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON12.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON13.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON14.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON15.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON16.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON17.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="SPON18.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+       <div class="sponsor-card">
+        <img src="last spon.jpg" 
+             alt="Logo Fondation XYZ" 
+             loading="lazy"
+             width="160"
+             height="90">
+      </div>
+      
+      <!-- Ajouter d'autres sponsors -->
+    </div>
+  </div>
+</footer>
+        </div>
+        
+        <div class="text-center mt-5">
+            <p class="mb-0">© 2025 Keur Yaye Sokhna Gueye Bilingual School - Tous droits réservés</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS et dépendances -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+
+    <!-- Sections restantes identiques à la version précédente -->
+    <!-- ... -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
